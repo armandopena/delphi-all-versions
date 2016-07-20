@@ -1,0 +1,4 @@
+# Jogo de Imagens
+Este projeto possui quatro imagens dentro de painéis na parte superior e três na parte inferior, ao clicar em cada imagem as imagens são mandas para baixo (se estiver na parte superior) ou para cima (se estiver na parte inferior). Quando todas as imagens da parte inferior são preenchidas e, ao tentar mandar mais uma imagem para baixo é exibida uma mensagem para o usuário de erro informando que todas as imagens já foram enviadas para baixo. E necessário ao usuário retirar uma imagem da parte inferior para continuar.
+O detalhe mais importante deste projeto é seu algoritmo que utiliza a referência das próprias imagens (objeto TImage) para vincular em uma lista (objeto TList) de objetos. Toda a inteligência esta independente dentro de uma classe separada do formulário principal.
+
