@@ -15,8 +15,11 @@ Drag Drop
     Para usar navegue pelas pastas no menu lateral com a lista de diretórios procurando um arquivo de texto (*.txt), ao selecionar uma pasta com este arquivo ele é mostrado a abaixo em uma seleção de arquivo, clique nele e arraste para dentro do editor a esquerda, ele é aberto dentro para visualização. 
     O destaque deste projeto é usar os eventos DragDrop, DragOver, EndDrag onde temos os recursos de arrastar e soltar, pouco utilizado nas aplicações em geral.
 Portas Abertas
-    Este projeto monitora as portas especificadas no número do IP e mostra todas as que estão abertas, durante o processamento iniciado (botão iniciar) vai monitorando e adicionando as portas, exibe um progresso e é possível interromper o processamento a qualquer momento parando o procedimento (botão parar).
-    Utiliza o TCPClient para conectar em cada porta do computador.
+    Este projeto monitora as portas especificadas no número do IP e mostra todas as que estão abertas, durante o processamento iniciado (botão iniciar) vai monitorando e adicionando as portas, exibe um progresso e é possível interromper o processamento a qualquer momento parando o procedimento (botão parar). Utiliza o TCPClient para conectar em cada porta do computador.
+Jogo de Imagens
+    Este projeto possui quatro imagens dentro de painéis na parte superior e três na parte inferior, ao clicar em cada imagem as imagens são mandas para baixo (se estiver na parte superior) ou para cima (se estiver na parte inferior). Quando todas as imagens da parte inferior são preenchidas e, ao tentar mandar mais uma imagem para baixo é exibida uma mensagem para o usuário de erro informando que todas as imagens já foram enviadas para baixo. E necessário ao usuário retirar uma imagem da parte inferior para continuar.
+    O detalhe mais importante deste projeto é seu algoritmo que utiliza a referência das próprias imagens (objeto TImage) para vincular em uma lista (objeto TList) de objetos. Toda a inteligência esta independente dentro de uma classe separada do formulário principal.
+
 
 
 Projetos disponibilizados em https://github.com/armandopena/delphi-all-versions 
