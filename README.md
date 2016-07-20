@@ -13,7 +13,7 @@ ajusta o tamanho da imagem para o tamanho da janela.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoTitle><b>Contador Dinheiro<b></p>
+<p class=MsoTitle><b>Contador Dinheiro</b></p>
 
 <p class=MsoNormal style='text-indent:21.3pt'>Este projeto é um contador de cédulas
 para um determinado valor em reais, ele converte o valor inserido na caixa de texto
